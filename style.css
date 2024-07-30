@@ -1,0 +1,33 @@
+body {
+  /* background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: cover; */
+
+/* Agrupar os comandos background: color image repeat position/size; */
+
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#container {
+  width: 360px; /*largura*/
+  height: 712px; /*altura*/
+  border: 1px solid red; /*borda*/
+  margin: auto; /* deixou a caixa centralizada*/
+}
+
+#profile {
+text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+#profile p{
+  font-weight: 500;
+  line-height: 24px;
+}
